@@ -169,3 +169,30 @@ section{
     color:White;
     font-family: 'Arial', sans-serif;
 }
+@media only screen and (max-width: 768px) {
+    #time{
+        font-size: 30px;
+    
+    }
+    .btn{
+    
+        width:50px;
+        height:30px;
+        border-radius: 10px;
+        font-size: 10px;
+        
+        
+    }
+    #clock-container{
+        height:fit-content;
+        width: 80%;
+       
+    }
+    #time_period{
+        font-size: 20px;
+    }
+    #time_zone{
+        text-align: center;
+        font-size: 15px;
+    }
+  }
