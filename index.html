@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+</head>
+<body >
+
+    <section>
+
+        <div id="clock-container">
+
+            <div class="flex-center" id="button-color-1">
+                <button class="btn"  id="white" onclick="color(1)">
+                    White
+                </button>
+            </div>
+
+            <div class="flex-center" id="button-color-2">
+                <button class="btn"  id="yellow" onclick="color(2)">
+                    Yellow
+                </button>
+
+            </div>
+
+            <div class="flex-center" id="button-color-3">
+                <button class="btn"  id="green" onclick="color(3)">
+                    Green
+                </button>
+            </div>
+
+            
+
+            
+
+            
+            <div class="flex-center"  id="time-container">
+                <p id="time">
+                </p>
+            </div>
+          
+            <div  id="period-container">
+                <p id="time_period"></p>
+            </div>
+            <div  id="zone-container">
+                <p id="time_zone"></p>
+            </div>
+
+            <div class="flex-center"  id="type-container">
+                <button class="btn"  id="time-type-1">12 hour</button>
+                <button class="btn"  id="time-type-2">24 hour</button>
+            </div>
+
+           
+          
+            
+
+           
+
+        </div>
+        
+        
+    </section>
+
+    <footer class="flex-center" >	 <p id="name"> Elymer Reyno &copy; 2021</p> </footer>
+    
+    <script src = "main.js">
+    </script>
+</body>
+</html>
